@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/favicon97-97.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
+    <title>Previsao do tempo</title>
+</head>
+
+<body>
+    <div class="caixa-maior">
+        <input class="input-cidade" placeholder="Digite o nome da cidade">
+        <button class="botao-busca"  onclick="cliqueiNoBotao()">
+            <img class="img-busca" alt="busca" src="./img/seach.svg">
+        </button>
+
+        <div class="caixa-media">
+            <h2 class="cidade">Tempo em Manaus</h2>
+
+            <p class="temp">21°C</p>
+
+            <div class="caixa-menor">
+                <!--<img class="img-previsao" alt="icone-do-tempo" src="./img/ensolarado.svg"> -->
+                <i id="img-previsao" alt="icone-do-tempo" class='bx bx-cloud'></i>
+                <p class="descricao">Nublado</p>
+            </div>
+
+            <p class="umidade">Umidade: 67%</p>
+        </div>
+    </div>
+</body>
+
+</html>

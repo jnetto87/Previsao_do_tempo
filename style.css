@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caixa-maior {
+    width: 95%;
+    max-width: 450px;
+    height: 300px;
+    background: black;
+    opacity: 0.9;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.input-cidade {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: white;
+    width: calc(100% - 70px);
+}
+
+.botao-busca{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background: #7c7c7c2b;
+    cursor: pointer;
+    float: right;
+}
+
+.caixa-media{
+    margin-top: 20px;
+}
+
+.img-busca{
+    width: 20px;
+    color: white;
+}
+
+.cidade{
+    color: white;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.temp{
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+#img-previsao{
+    color: white;
+    font-size: 30px;
+}
+
+.caixa-menor{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.descricao{
+    color: white;
+    margin-left: 15px;
+}
+
+.umidade{
+    color: white;
+    margin-top: 15px;
+}
