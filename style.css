@@ -37,7 +37,7 @@ body {
     width: calc(100% - 70px);
 }
 
-.botao-busca{
+.botao-busca {
     border: none;
     outline: none;
     padding: 10px;
@@ -47,44 +47,56 @@ body {
     float: right;
 }
 
-.caixa-media{
+.caixa-media {
     margin-top: 20px;
 }
 
-.img-busca{
+.img-busca {
     width: 20px;
     color: white;
 }
 
-.cidade{
+.cidade {
     color: white;
     font-size: 28px;
     font-weight: 300;
 }
 
-.temp{
+.temposs {
+    display: flex;
+    align-items: center;
+}
+
+.umid {
+    color: white;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.temp {
     font-size: 20px;
     color: white;
     margin-top: 20px;
 }
 
-#img-previsao{
+#img-previsao {
     color: white;
     font-size: 30px;
 }
 
-.caixa-menor{
+.caixa-menor {
     display: flex;
     align-items: center;
     margin-top: 15px;
 }
 
-.descricao{
+.descricao {
     color: white;
     margin-left: 15px;
+    text-transform: capitalize;
 }
 
-.umidade{
+.umidade {
     color: white;
     margin-top: 15px;
 }

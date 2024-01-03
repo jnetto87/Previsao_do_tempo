@@ -17,22 +17,24 @@
 <body>
     <div class="caixa-maior">
         <input class="input-cidade" placeholder="Digite o nome da cidade">
-        <button class="botao-busca"  onclick="cliqueiNoBotao()">
+        <button class="botao-busca" onclick="cliqueiNoBotao()">
             <img class="img-busca" alt="busca" src="./img/seach.svg">
         </button>
 
         <div class="caixa-media">
-            <h2 class="cidade">Tempo em Manaus</h2>
+            <h2 class="cidade">Pesquise a Cidade</h2>
 
-            <p class="temp">21°C</p>
-
-            <div class="caixa-menor">
-                <!--<img class="img-previsao" alt="icone-do-tempo" src="./img/ensolarado.svg"> -->
-                <i id="img-previsao" alt="icone-do-tempo" class='bx bx-cloud'></i>
-                <p class="descricao">Nublado</p>
+            <div class="temposs">
+                <p class="umid">Temperatura:</p>
+                <h1 class="temp">--°C</h1>
             </div>
 
-            <p class="umidade">Umidade: 67%</p>
+            <div class="caixa-menor">
+                <img class="img-previsao" alt="icone-do-tempo" src="https://openweathermap.org/img/wn/04n.png">
+                <p class="descricao">--</p>
+            </div>
+
+            <p class="umidade">Umidade: --%</p>
         </div>
     </div>
 </body>
